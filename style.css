@@ -1,0 +1,82 @@
+body {
+    background: black;
+    color: white;
+}
+#myVideo {
+    position: fixed;
+    top: 50%;
+    left: 10%;
+    min-width: 90%;
+    min-height: 90%;
+    width: 50%;
+    height: 50%;
+    z-index: -100;
+    transform: translate(-50%, -50%);
+  }
+  nav {
+    position: fixed;
+    bottom:25px;
+  }
+  nav, .navbar-brand {
+      font-family: 'Roboto', sans-serif;
+      background-color: transparent;
+      color: white;
+      font-size: 20px;
+      position: relative;
+  }
+  .intro {
+    font-family: 'Roboto', sans-serif;
+    font-size: 90px;
+    text-align: center;
+    position: fixed;
+    left: 30%;
+    top:20%;
+    background: transparent;
+    clear:left;
+  }
+  .intro h2 {
+      font-style: italic;
+  }
+  .name {
+    font-size: 90px;
+  }
+
+.face{
+    float: right;
+    position: relative;
+    right:100px;
+    width: 50%;
+    height: 50%;
+}
+
+.card-deck {
+    color: white;
+    width: 40%;
+    float: right;
+    background: black;
+}
+.card-body {
+    background: black;
+}
+.card {
+    border: solid 1px gray;
+    background-color: black;
+}
+.card:hover{
+    border: solid 3px white;
+}
+.card-img-top {
+    background-color: black;
+}
+.dna {
+    position: relative;
+    left: 40px;
+    height:60%;
+    width:60%;
+    background-color: black;
+}
+
+.bio {
+    font-family: 'Roboto', sans-serif;
+    float: left;
+}
