@@ -28,8 +28,8 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 90px;
     text-align: center;
-    position: fixed;
-    left: 30%;
+    position: relative;
+    left: 35%;
     top:20%;
     background: transparent;
     clear:left;
@@ -51,9 +51,12 @@ body {
 
 .card-deck {
     color: white;
-    width: 40%;
+    width: 35%;
     float: right;
     background: black;
+    position: relative;
+    top: 50px;
+    left: 150px;
 }
 .card-body {
     background: black;
@@ -61,6 +64,7 @@ body {
 .card {
     border: solid 1px gray;
     background-color: black;
+    margin: 10px;
 }
 .card:hover{
     border: solid 3px white;
@@ -71,6 +75,7 @@ body {
 .dna {
     position: relative;
     left: 40px;
+    top:25px;
     height:60%;
     width:60%;
     background-color: black;
@@ -79,4 +84,29 @@ body {
 .bio {
     font-family: 'Roboto', sans-serif;
     float: left;
+}
+
+.card-title {
+    text-align: center;
+}
+#bb {
+    position: relative;
+    top: 20px;
+}
+.soccer {
+    width:100%;
+    height: 100%;
+}
+
+#bioPage, #hobPage {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 400px;
+    height: 500px;
+}
+.col1 {
+    font-size: 40px;
+}
+.col2 {
+    border-left: solid 2px white;
 }
